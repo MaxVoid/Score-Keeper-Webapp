@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Score Keeper Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="scoreKeeper.css">
+</head>
+<body>
+
+    <p>Welcome to Score Keeper! Click the buttons bellow to track the points each player/team makes! <br>
+    You can change the winning score by entering the desired number into the number input field.</p>
+
+    <h1 id="scoreCard">SCORE: <span id="p1ScoreCard">0</span> to <span id="p2ScoreCard">0</span></h1>
+
+    <p>Playing to: <span id="winningScoreDisplay">5</span></p>
+
+    <input id="numInput" type="number">
+    <br><br>
+    <input id="p1Input" type="text">
+    <button id="p1">Player 1</button>
+    <button id="p2">Player 2</button>
+    <input id="p2Input" type="text">
+    <br><br>
+    <button id="rst">Reset</button>
+
+    <p><span id="pConsole"></span></p>
+
+    <script src="scoreKeeper.js"></script>
+</body>
+</html>
